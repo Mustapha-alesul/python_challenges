@@ -6,11 +6,15 @@ string=input('enter a word:\t')
 def first_repeated_character(word):
     temp=''
     for element in word:
-        if element not in temp:
-            temp+=element
-        elif element in temp:
-            print(f'The first repeated character of {word} is:',element)
-            break
+        if word.count(temp)<=1:
+            if element not in temp:
+                temp+=element
+            elif element in temp:
+                print(f'The first repeated character of {word} is:',element)
+                break
+            else:
+                print(f'There is no repeated character in {word}')
         else:
-            print(f'There is no repeated character in {word}')
+            print(f'The first repeated character of {word} is:', element)
+            break
 first_repeated_character(string)
