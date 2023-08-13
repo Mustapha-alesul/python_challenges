@@ -6,7 +6,7 @@ string=input('enter a word:\t')
 def first_repeated_character(word):
     temp=''
     for element in word:
-        if word.count(temp)<=1:
+        if word.count(element)<=1:
             if element not in temp:
                 temp+=element
             elif element in temp:
