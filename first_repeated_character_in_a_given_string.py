@@ -3,6 +3,7 @@ Python program to find the first repeated character in a given string
 where the index of the first occurrence is smallest.
 '''
 string=input('enter a word:\t')
+string=string.lower()
 def first_repeated_character(word):
     temp=''
     for element in word:
