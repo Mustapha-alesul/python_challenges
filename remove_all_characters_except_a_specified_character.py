@@ -6,7 +6,7 @@ remained=input('enter a character which will remain')
 def remove_all_characters(sentencee,character):
     corrected=''
     for element in sentencee:
-        if (element.upper() or element.lower)==character:
+        if element.upper()==element or element.lower()==character:
             corrected+=element
         else:
             continue
