@@ -7,6 +7,5 @@ count = 0
 for item in mixed_list:
     if isinstance(item,tuple):
         break
-    else:
-        count += 1
+    count += 1
 print(count)
