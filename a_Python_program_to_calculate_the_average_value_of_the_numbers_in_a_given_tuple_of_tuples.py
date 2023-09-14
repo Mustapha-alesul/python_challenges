@@ -18,18 +18,20 @@ def averagee(tupple):
     length = len(tupple)
     summ = 0
     avera = []
-    for i in range(length):
+    for item in tupple:
+        lengthh = len(item)
+    for i in range(lengthh):
         for item in tupple:
-
-
+            lengthh = len(item)
             summ += item[i]
+
         av = summ/length
         summ = 0
         avera.append(av)
 
     print(avera)
 
-# print('Original Tuple:', Original_Tuple)
-# averagee(Original_Tuple)
+print('Original Tuple:', Original_Tuple)
+averagee(Original_Tuple)
 print('Original Tuple:', Original_Tuplee)
 averagee(Original_Tuplee)
