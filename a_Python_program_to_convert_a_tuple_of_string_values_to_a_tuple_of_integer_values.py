@@ -9,6 +9,10 @@
 
 Original_tuple_values = (('333', '33'), ('1416', '55'))
 Original_tuple_values = list(Original_tuple_values)
+New_tuple_values = []
+length = len(Original_tuple_values)
 for item in Original_tuple_values:
     item = list(item)
+
+
 
