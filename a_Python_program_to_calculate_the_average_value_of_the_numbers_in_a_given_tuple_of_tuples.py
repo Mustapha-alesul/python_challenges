@@ -12,19 +12,15 @@
 """
 
 Original_Tuple = ((10, 10, 10, 12), (30, 45, 56, 45), (81, 80, 39, 32), (1, 2, 3, 4))
-Original_Tuple_1 = ((1, 1, -5), (30, -15, 56), (81, -60, -39), (-10, 2, 3))
+Original_Tuplee = ((1, 1, -5), (30, -15, 56), (81, -60, -39), (-10, 2, 3))
 
-def average(tupple):
+def averagee(tupple):
     length = len(tupple)
     summ = 0
     avera = []
     for i in range(length):
         for item in tupple:
-        # for index, value in enumerate(item):
-        #     for i in range(length):
-        #         if i == index:
-        #             summ += value
-        #             print(summ)
+
 
             summ += item[i]
         av = summ/length
@@ -33,5 +29,7 @@ def average(tupple):
 
     print(avera)
 
-
-average(Original_Tuple)
+# print('Original Tuple:', Original_Tuple)
+# averagee(Original_Tuple)
+print('Original Tuple:', Original_Tuplee)
+averagee(Original_Tuplee)
