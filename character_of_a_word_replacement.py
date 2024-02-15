@@ -1,5 +1,7 @@
 '''
-a Python program to replace each character of a word of length five and more with a hash character (#).
+#
+#A Python program to replace each character of a word of length five and more with a hash character (#).
+#
 '''
 sentence=input('enter a sentence')
 list=sentence.split(' ')
